@@ -1,0 +1,93 @@
+body{
+          font-family: "Poppins", sans-serif;  
+          margin: 0;
+          padding: 0;                    
+}
+
+.aboutwebsite {
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.aboutwebsite .heading {
+  font-size: 40px;
+  font-weight: bold;
+  color:brown;
+  margin-bottom: 10px;
+}
+
+.aboutwebsite .intro-text {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+.containerabout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+
+.containerabout img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.containerabout .texts {
+  flex: 1;
+  min-width: 300px;
+}
+
+.containerabout .texts h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+.containerabout .texts p,
+.containerabout .texts li {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .containerabout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .containerabout img {
+    width: 100%;
+  }
+}
+
+
+.mission, .creator, .contact-info, .quick-links {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.mission h2, .creator h2, .contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color:  rgb(17, 26, 66);
+}
